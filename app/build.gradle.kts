@@ -72,7 +72,8 @@ dependencies {
 
     //Retrofit and Gson Converter
     implementation ("com.squareup.retrofit2:retrofit:2.11.0") //retrofit
-    implementation ("com.squareup.retrofit2:converter-gson:2.11.0") //converter
+    implementation ("com.squareup.retrofit2:converter-moshi:2.11.0") //moshi converter
+
 
     //okhttp3 dependency
     implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.14")
