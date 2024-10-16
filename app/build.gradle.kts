@@ -53,6 +53,7 @@ android {
 
 dependencies {
 
+    implementation(libs.play.services.location)
     val lifecycle_version = "2.8.4"
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
